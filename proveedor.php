@@ -52,7 +52,7 @@ echo '<br>'.'La fecha y la hora actual es: '.$fecha_hora;
 //Instancias
 
 $proveedor1 = new Proveedor('001','Ronald','Puerto','3016574328');
-$proveedor2 = new Proveedor('002','Danna','Milena','31027684569');
+$proveedor2 = new Proveedor('002','Danna','Jimenez','31027684569');
 $proveedor3 = new Proveedor('003','Cristian','Leon','3058375912');
 $proveedor4 = new Proveedor('004','Valentina','Avila','3290685732');
 $proveedor5 = new Proveedor('005','Daniel','Perez','3004755844');
