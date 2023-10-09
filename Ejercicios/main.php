@@ -4,8 +4,8 @@ require_once('computador.php');
 $fechaActual = Computador::obtener_fecha();
 echo 'La fehca actual es: '. $fechaActual. '<div>';
 
-Computador::contar()-> $contador;
-$contador->contar();
+// Computador::$contador->contar;
+// $contador->contar();
 
 require_once('Laptop.php');
 echo '<br>';
