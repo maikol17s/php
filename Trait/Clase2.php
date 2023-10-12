@@ -1,6 +1,6 @@
 <?php 
-//Espacio de nombres para las clases de la empresa ABC
-//No debe escribir codigo PHP antes del namespace
+//Espacio de nombres para las clases de la empresa ABC;
+//No debe escribir codigo PHP antes del namespace;
 
 namespace Sena;
 

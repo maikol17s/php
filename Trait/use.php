@@ -1,5 +1,5 @@
 <?php
-//Aplicando un ALIAS al namespace con la palabra reservada 'use';
+//Aplicando un ALIAS al namespace con la palabra reservada 'USE';
 
 require('Clase2.php');
 
