@@ -80,7 +80,7 @@ class Ficha{
 }
 
 $aprendiz1 = new Aprendiz('Valentina','Avila Ramirez','ADSO',2693630, 'CIDE',21277335,'C.C');
-$aprendiz2 = new Aprendiz('Juan','Gomez Prada','ADSO',2693630, 'CIDE',129173547,'T.I');
+$aprendiz2 = new Aprendiz('Felipe','Gutierrez Paez','ADSO',2693630, 'CIDE',129173547,'T.I');
 $aprendiz3 = new Aprendiz('Danna','Jimenez Castro','ADSO',2693630, 'CIDE',102973445,'T.I');
 $aprendiz4 = new Aprendiz('Maikol','Garcia Mendez','ADSO',2693630, 'CIDE',102983664,'C.C');
 $aprendiz5 = new Aprendiz('Cristian','Leon Valencia','ADSO',2693630, 'CIDE',13746455,'C.C');
