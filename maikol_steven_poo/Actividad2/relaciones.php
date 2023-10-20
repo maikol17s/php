@@ -47,7 +47,7 @@ class CarroCompra{
 }
 
 //#############################################################
-// Un clase Pedido que guarda los datos de un pedido de productos
+// Un clase Pedido en la que se  guarda los datos de un pedido de productos
 
 class Pedido {
     private $nombreCliente;
