@@ -1,17 +1,16 @@
-<?php 
-
-function reproducirCancion(array $parametros) {
-    $cancion = $parametros['cancion'] ?? 'Canción no especificada';
-    $artista = $parametros['artista'] ?? 'Artista no especificado';
-    $genero = $parametros['genero'] ?? 'Género no especificado';
-
-    echo "Reproduciendo: $canción - $artista ($genero)";
+<?php
+class ConversorMoneda {
+    public function dolaresAEuros($dolares) {
+        $euros = $dolares * 0.85;
+        return $euros;
+    }
 }
 
-$parametros = [
-    'cancion' => 'Bohemian Rhapsody',
-    'artista' => 'Queen',
-    'genero' => 'Rock'
-];
+// Instancia la clase 
+$conversor = new ConversorMoneda();
 
-reproducirCancion($parametros);
+// Crea una variable 
+$dolares = 50;
+$euros = $conversor->dolaresAEuros($dolares); // Utiliza el metodo creado arriba
+echo "$dolares dólares son €$euros euros.";
+?>

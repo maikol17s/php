@@ -1,6 +1,6 @@
 <?php 
 
-function miFuncion($parametros) {
+function persona($parametros) {
     $nombre = $parametros['nombre'] ?? 'John Doe';
     $edad = $parametros['edad'] ?? 30;
 
